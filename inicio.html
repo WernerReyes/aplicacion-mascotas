@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container pag-inicio">
+        <div class="row align-items-center pt-4">
+          <div class="col-md-6 d-flex justify-content-center">
+            <img src="images/logo-empresa.png" alt="">
+          </div>
+          <div class="col-md-6 text-center mt-3">
+            <h5 class="card-title mb-1">¡Haz un nuevo amigo!</h5>
+            <p class="card-text mb-2">Adopta una mascota hoy</p>
+            <input type="submit" class="btn btn-primary btn-comenzar mt-4" value="Comenzar!" onclick="comenzar()">
+          </div>
+        </div>
+        <div class="row">
+            <div class="p-0 mt-5">
+                <img class="mx-auto img-fluid" src="images/img-portada.png" alt="">
+            </div>
+        </div>
+      </div>
+
+<script>
+   function comenzar() {
+    window.location.href = 'login.html';
+   }
+</script>
+</body>
+</html>

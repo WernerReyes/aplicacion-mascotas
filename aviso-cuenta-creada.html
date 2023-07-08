@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button class="presionar">Click</button>
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-body">
+              <!-- Contenido del modal -->
+              <div class="container child-element w-100 h-100 d-flex flex-column align-items-center justify-content-center div-cuenta-creada">
+                <div>
+                  <img src="images/perros-labrador.gif" class="img-fluid gif-color" alt="Imagen">
+                </div>
+                <h2 style="font-family: 'Poppins'; color:white; font-weight: 700;">Cerrando sesión . . .</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <script src="js/bootstrap.min.js"></script>
+
+      <script>
+        const modal = new bootstrap.Modal(document.querySelector('#exampleModal'));
+        document.querySelector('.presionar').addEventListener('click', () => {
+            modal.toggle();
+        })
+      </script>
+      
+      
+</body>
+</html>

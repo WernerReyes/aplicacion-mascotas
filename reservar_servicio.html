@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- LINKS CSS -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/index.css">
+
+     <!-- FUENTES -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+     <!-- LINKS ICONOS --> 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div id="reservar-servicio">
+        <div class="container d-flex flex-column align-items-start my-container">
+            <div class="mt-3 text-right px-4">
+                <i class="bi bi-arrow-left-circle" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+        </div>
+        </div>
+          <div class="mt-1 mx-auto d-flex flex-column align-items-center">
+            <div class="circle d-flex justify-content-center align-items-center">
+              <!-- IMG -->
+            </div>
+            <div class="text-center mx-5">
+                   <!-- SERVICIO -->
+            </div>
+          </div>
+          <div class="p-5" style="background: #3370CC; border-radius: 35px 35px 0 0">
+             <form id="form-reservar">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="datos-personales" disabled>
+                    <label for="floatingInput">Nombres y apellidos</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="numero-telefono" disabled>
+                    <label for="floatingPassword">Número de telefono</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="date" id="fecha" name="fecha" class="form-control">
+                    <label for="floatingInput">Fecha</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="time" id="hora" name="hora" class="form-control">
+                    <label for="floatingPassword">Hora</label>
+                  </div>
+                  <button type="submit" class="form-control mt-4 reservar" >Reservar servicio</button>
+             </form>
+          </div>
+    </div>
+
+
+    <script type="module" src="js/reservar_servicio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

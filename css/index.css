@@ -1,0 +1,1174 @@
+/* PAGINA DE COMENZAR */
+.pag-inicio {
+  background-color: #55A5FA;;
+}
+.card-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.card-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.btn-comenzar {
+  background: #FFB228;
+  border-radius: 20px;
+  width: 187px;
+  height: 40px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  border: none;
+}
+/* FIN PAGINA DE COMENZAR */
+
+
+
+/* LOGIN */
+.email, .password {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #55A5FA;
+}
+
+#email, .input-group-text.ver-password, 
+.input-group-text.confirmar-password, #datos, #numTelefono, #nombres, #apellidos {
+  background: rgba(255, 255, 255, 0.08);
+  border: 3px solid #55A5FA;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+#password, #confirmarPassword {
+  border: 3px solid #55A5FA;
+  border-radius: 10px;
+  border-right: none;
+  box-shadow: none;
+}
+
+.input-group .form-control {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.input-group .input-group-text {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left: 0 !important;
+}
+
+.form-check-label {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000C14;
+}
+.forgot-password-link {
+  font-family: 'Manrope';
+  text-decoration: none;
+  color: #55A5FA;
+}
+
+.btn-ingresar {
+  font-family: 'Poppins';
+  background: #55A5FA;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn-facebook {
+  font-family: 'Poppins';
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  background: #1877F2;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-google {
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.año-creado {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+/* FIN LOGIN */
+
+
+/* ANUNCIO DE CUENTA CREADA */
+.div-cuenta-creada, .modal-body, .modal-header {
+  background-color: #55A5FA;
+}
+.div-cuenta-creada h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+
+.div-cuenta-creada strong, .div-cuenta-creada p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+
+.div-cuenta-creada p, .usuario {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.div-cuenta-creada button {
+  height: 54px;
+  width: 304px;
+  background: #365899;
+  border-radius: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.modal-header button {
+   font-size: 20px;  
+}
+/* FIN ANUNCIO DE CUENTA CREADA */
+
+
+/* VENTANA DE CARGA */
+.gif-color {
+  filter: brightness(0) invert(100%); /* Cambia a color blanco */
+}
+/* FIN VENTANA DE CARGA */
+
+
+/* INICIO APLICACION */
+
+ /*  Portada  */
+#carouselExampleCaptions p {
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;  
+  display: flex;
+  align-items: center;
+}
+ /*  Fin Portada  */
+
+ /* Todas las cateogorias */
+.carousel-inner {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.carousel  h2, .carousel a, .carousel h5{
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.carousel h2{
+  font-size: 25px;
+}
+
+/* Fin todas las categorias */
+
+
+/* Header */
+.navbar {
+  background-color: #474672;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 5px;
+}
+
+.navbar a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.navbar .icon {
+  font-size: 1.5em;
+}
+
+.navbar .text {
+  font-weight: 500;
+  font-size: 0.75em;
+}
+
+.indicador {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transform-origin: center;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link.active {
+  border-radius: 50%;
+  background: #000000;
+  padding: 10px 20px;
+}
+
+.navbar li.active .indicador {
+  transform: scaleX(1);
+}
+
+.img {
+  width: 22px;
+}
+/* Fin header */
+
+/* Servicios */
+#container-servicios .bi-arrow-left-circle,
+#container-educacional .bi-arrow-left-circle,
+#container-vestimenta .bi-arrow-left-circle,
+#container-alimentos .bi-arrow-left-circle,
+#container-juguetes .bi-arrow-left-circle,
+#carrito-api .bi-arrow-left-circle {
+  font-size: 30px;
+  color: #55A5FA;
+}
+
+#container-servicios .row.mt-4.mx-1 h4,
+#container-educacional .row.mt-4.mx-1 h4,
+#container-vestimenta .row.mt-4.mx-1 h4,
+#container-alimentos .row.mt-4.mx-1 h4,
+#container-juguetes .row.mt-4.mx-1 h4,
+#carrito-api .row.mt-4.mx-1 h4 {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Poppins';
+  line-height: 20px;
+}
+
+#container-servicios .card.my-3,
+#container-educacional .card.my-3,
+#container-vestimenta .card.my-3,
+#container-alimentos .card.my-3,
+#container-juguetes .card.my-3,
+#carrito-api .card.my-3 {
+  border: solid #ABDCFC;
+  border-radius: 10px;
+  width: 20rem; 
+  background: #EEF6FE;
+}
+
+#container-servicios .circle-1,
+#container-vestimenta .circle-1,
+#container-alimentos .circle-1,
+#container-juguetes .circle-1,
+#carrito-api .circle-1  {
+  width: 200px;
+  height: 200px;
+  background: rgba(171, 220, 252, 0.34);
+}
+
+#container-servicios .circle-2,
+#container-vestimenta .circle-2,
+#container-alimentos .circle-2,
+#container-juguetes .circle-2,
+#carrito-api .circle-2 {
+  width: 150px;
+  height: 150px;
+  margin-top: 150px;
+  background: #ABDCFC;
+}
+
+#container-servicios .d-flex.justify-content-center.align-items-center img,
+#container-vestimenta .d-flex.justify-content-center.align-items-center img,
+#container-alimentos .d-flex.justify-content-center.align-items-center img,
+#container-juguetes .d-flex.justify-content-center.align-items-center img {
+  width: 220px;
+  margin-top: 200px;
+}
+
+#container-servicios .card-body.text-center p,
+#container-educacional .card-body h4,
+#container-vestimenta .card-body.text-center p,
+#container-alimentos .card-body.text-center p,
+#container-juguetes .card-body.text-center p,
+#carrito-api .card-body.text-center p   {
+  color: #000;
+  font-size: 22px;
+  font-family: Acme;
+}
+
+#container-servicios .card-body.text-center .precio-servicio,
+#container-educacional .card-body .precio-servicio,
+#container-vestimenta .card-body.text-center .precio-servicio,
+#container-alimentos .card-body.text-center .precio-servicio,
+#container-juguetes .card-body.text-center .precio-servicio,
+#carrito-api .card-body.text-center .precio-servicio {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#container-servicios .card-body.text-center .btn-añadir-carrito,
+#container-educacional .card-body .btn-añadir-carrito,
+#container-vestimenta .card-body.text-center .btn-añadir-carrito,
+#container-alimentos .card-body.text-center .btn-añadir-carrito,
+#container-juguetes .card-body.text-center .btn-añadir-carrito {
+  background: #7DCCFF;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+#container-servicios .card-body.text-center .btn-ver-mas,
+#container-educacional .card-body .btn-ver-mas,
+#container-vestimenta .card-body.text-center .btn-ver-mas,
+#container-alimentos .card-body.text-center .btn-ver-mas,
+#container-juguetes .card-body.text-center .btn-ver-mas {
+  background: #0061C9;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 85px;
+  height: 45px;
+  color: white;
+  font-family: Acme;
+}
+
+#container-servicios .card-body.text-center i,
+#container-educacional .card-body i,
+#container-vestimenta .card-body.text-center i,
+#container-alimentos .card-body.text-center i,
+#container-juguetes .card-body.text-center i {
+  color: #ffffff;
+  font-size: 23px;
+}
+
+/* Modal */
+#modal-servicios .modal-body {
+  background: #ABDCFC;
+}
+
+#modal-servicios .title,
+#modal-educacional .title,
+#modal-vestimenta .title,
+#modal-alimentos .title,
+#modal-juguetes .title {
+  color: #FFF;
+text-align: center;
+font-size: 36px;
+font-family: Acme;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 1px; 
+}
+
+#modal-servicios .volver-atras, 
+#modal-servicios .ir-carrito,
+#modal-educacional .volver-atras, 
+#modal-educacional .ir-carrito,
+#modal-vestimenta .volver-atras, 
+#modal-vestimenta .ir-carrito,
+#modal-alimentos .volver-atras, 
+#modal-alimentos .ir-carrito,
+#modal-juguetes .volver-atras, 
+#modal-juguetes .ir-carrito      {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  opacity: 0.25;
+  background: #FFF;
+  backdrop-filter: blur(10px);
+}
+
+#modal-servicios .volver-atras i,
+#modal-servicios .ir-carrito i,
+#modal-educacional .volver-atras i,
+#modal-educacional .ir-carrito i,
+#modal-vestimenta .volver-atras i,
+#modal-vestimenta .ir-carrito i,
+#modal-alimentos .volver-atras i,
+#modal-alimentos .ir-carrito i,
+#modal-juguetes .volver-atras i,
+#modal-juguetes .ir-carrito i {
+ color: #000000;
+ font-size: 20px;
+}
+
+#modal-servicios .contenido,
+#modal-educacional .contenido,
+#modal-vestimenta .contenido,
+#modal-alimentos .contenido,
+#modal-juguetes .contenido   {
+  background: #ffffff6a;
+  border-radius: 30px;
+}
+
+#modal-servicios .decoracion,
+#modal-educacional .decoracion,
+#modal-vestimenta .decoracion,
+#modal-alimentos .decoracion,
+#modal-juguetes .decoracion {
+  width: 30%;
+  background: #FFF;
+  border-radius: 50px;
+}
+
+#modal-servicios .text-justify-rect {
+  padding: 7px 10px;
+  font-size: 18px;
+  font-family: Acme;
+  line-height: 140.687%;
+  letter-spacing: 0.56px;
+}
+
+#modal-servicios .reservar,
+#modal-educacional .agregar-carrito,
+#modal-vestimenta .agregar-carrito,
+#modal-alimentos .agregar-carrito,
+#modal-juguetes .agregar-carrito {
+  width: 290px;
+  height: 65px;
+  border: none;
+  border-radius: 50px;
+  background: #0E80EA;
+  color: #FFF;
+  font-size: 20px;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  box-shadow: 0px 10px 0px #0e80ea77;
+  margin-bottom: 20px;
+}
+/* Fin modal */
+
+/* Fin servicios */
+
+/* Educacional */
+#container-educacional .card.my-3 {
+  border: solid #B1E0D8;
+}
+
+#container-educacional .d-flex.justify-content-center.align-items-center img {
+  width: 200px;
+}
+
+#container-educacional .card-body p  {
+  color: #6FCF97;
+  font-size: 15px;
+  font-family: Acme;
+}
+
+#container-educacional .card-body .btn-añadir-carrito {
+  background: #B1E0D8;
+}
+
+#container-educacional .card-body .btn-ver-mas {
+  background: #6FCF97;
+}
+
+/* Modal */
+#modal-educacional .modal-body {
+  background: #B1E0D8;
+}
+
+#modal-educacional .puntaje {
+  width: 20%;
+  position: absolute;
+  left: 70%;
+  background: #FFF;
+  border-radius: 50px;
+}
+
+#modal-educacional .puntaje i {
+  color: #F2C94C;
+  font-size: 20px;
+}
+
+#modal-educacional .puntaje p {
+  color: #000;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+#modal-educacional .text-justify-rect {
+  padding: 7px 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Acme;
+  line-height: 140.687%;
+  letter-spacing: 0.56px;
+}
+/* Fin modal */
+
+/* Fin educacional */
+
+/* Vestimenta */
+#container-vestimenta .card.my-3 {
+  border: solid #BBB7EA;
+}
+
+#container-vestimenta .circle-1   {
+  background: rgba(187, 183, 234, 0.20);
+}
+
+#container-vestimenta .circle-2  {
+  background: #BBB7EA;
+}
+
+#container-vestimenta .d-flex.justify-content-center.align-items-center img {
+  width: 200px;
+}
+
+#container-vestimenta .card-body.text-center .btn-ver-mas {
+ background: #A099F9;
+}
+
+#container-vestimenta .card-body.text-center .btn-añadir-carrito {
+  background: #BBB7EA;
+}
+
+/* Modal */
+#modal-vestimenta .modal-body {
+  background: #BBB7EA;
+}
+
+#modal-vestimenta .text-justify-rect {
+  padding: 7px 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Acme;
+  line-height: 140.687%;
+  letter-spacing: 0.56px;
+}
+/* Fin modal */
+
+/* Fin vestimenta */
+
+/* Alimentos */
+#container-alimentos .card.my-3 {
+  border: solid #FBAE9E;
+}
+
+#container-alimentos .circle-1   {
+  background: rgba(246, 184, 177, 0.22);
+}
+
+#container-alimentos .circle-2  {
+  background: #FBAE9E;
+}
+
+#container-alimentos .d-flex.justify-content-center.align-items-center img {
+  width: 240px;
+}
+
+#container-alimentos .card-body.text-center .btn-ver-mas {
+ background: #F8917B;
+}
+
+#container-alimentos .card-body.text-center .btn-añadir-carrito {
+  background: #FBAE9E;
+}
+/* Modal */
+#modal-alimentos .modal-body {
+  background: #FBAE9E;
+}
+
+#modal-alimentos .text-justify-rect {
+  padding: 7px 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Acme;
+  line-height: 140.687%;
+  letter-spacing: 0.56px;
+}
+/* Fin modal */
+
+/* Fin alimentos */
+
+/* Juguetes */
+#container-juguetes .card.my-3 {
+  border: solid #FDD2A4;
+}
+
+#container-juguetes .circle-1   {
+  background: rgba(246, 184, 177, 0.22);
+}
+
+#container-juguetes .circle-2  {
+  background: #FDD2A4;
+}
+
+#container-juguetes .d-flex.justify-content-center.align-items-center img {
+  width: 240px;
+}
+
+#container-juguetes .card-body.text-center .btn-ver-mas {
+ background: #F8917B;
+}
+
+#container-juguetes .card-body.text-center .btn-añadir-carrito {
+  background: #FDD2A4;
+}
+/* Modal */
+#modal-juguetes .modal-body {
+  background: #FDD2A4;
+}
+
+#modal-juguetes .text-justify-rect {
+  padding: 7px 10px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Acme;
+  line-height: 140.687%;
+  letter-spacing: 0.56px;
+}
+/* Fin modal */
+
+/* Fin juguetes */
+
+
+
+/* FIN INICIO APLICACION */
+
+
+
+/* ADOPTAR APLICACION */
+#pagina-adoptar .titulo-motivador {
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 68px;
+}
+
+#pagina-adoptar input, #pagina-adoptar .input-group-text,
+#container-servicios .input-group input, #container-servicios .input-group span,
+#container-educacional .input-group input, #container-educacional .input-group span,
+#container-vestimenta .input-group input, #container-vestimenta .input-group span,
+#container-alimentos .input-group input, #container-alimentos .input-group span,
+#container-juguetes .input-group input, #container-juguetes .input-group span {
+  background: #FFFCFC;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #868585;
+  padding: 15px 20px;
+}
+
+
+#pagina-adoptar .bi-filter-square-fill  {
+  font-size: 30px;
+  color: #55A5FA;
+}
+
+#pagina-adoptar .m-0  {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #55A5FA;
+}
+
+#pagina-adoptar .btn-filtrar-perro, 
+#pagina-adoptar .btn-filtrar-gato {
+  background: #AAD1FA;
+  box-shadow: inset 0px -3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  width: 58px;
+  height: 58px;
+  border: none;
+}
+
+#mascotas .card.shadow-sm {
+   border-radius: 30px;
+   background: #55A5FA;
+}
+#mascotas .bi-gender-male,
+#mascotas .bi-gender-female {
+   color: #0061C9;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+#mascotas h3 {
+  color: #0061C9;
+  font-size: 60px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  padding: 0;
+}
+
+#mascotas small {
+  color: #0061C9;
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+#mascotas .raza-mascota {
+  color: #2A83E1;
+  font-size: 28px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  padding: 0;
+}
+
+#mascotas .saber-mas {
+  width: 60px;
+  height: 40px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #0061C9;
+  color: #FFFBF3;
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  border: none;
+}
+
+#mascotas .me-gusta {
+  width: 40px;
+  height: 40px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: solid 3px #0061C9;
+}
+
+#mascotas .me-gusta span {
+ font-size: 20px;
+ color: #0061C9;
+ font-weight: 500;
+}
+
+/* Modal */
+#pantalla-overlay {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: #55A5FA;
+  z-index: 9999; /* Fondo semitransparente */
+  overflow-y: auto;
+}
+
+#contenido i, #contenido .mx-2.m-1 {
+  color: #EEF0F2;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+#contenido h4 {
+  color: #CFE6FF;
+  font-size: 15px;
+  font-family: 'Inter';
+  font-weight: 900;
+}
+
+#contenido select {
+  border-radius: 16px;
+  background: #FFFBF3;
+  color: #4A9CF3;
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+#contenido label, #contenido .edad {
+  color: #FFF;
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-weight: lighter;
+}
+
+#contenido .checked {
+  border: solid #AAD2FD;
+  background-color: transparent;
+}
+
+.personalidad button {
+  width: 100px;
+  border-radius: 100px;
+  border: 4px solid #AAD2FD;
+  background: #55A5FA;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.btn-borrar-filtros {
+  width: 304px;
+  height: 54px;
+  border-radius: 16px;
+  border: none;
+  background: #FFFBF3;
+  color: #55A5FA;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+/* Modal */
+#modal-adoptar .modal-body {
+  background: #0E7AED;
+}
+
+#modal-adoptar .d-flex.align-items-center i,
+#modal-adoptar .d-flex.align-items-center h3  {
+  font-size: 25px;
+  font-family: Poppins;
+  color: white;
+}
+
+#modal-adoptar .d-flex.align-items-center h3 {
+  font-size: 40px;
+}
+
+#modal-adoptar label {
+  color: #A4CFFD;
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 900;
+}
+
+#modal-adoptar p {
+  color: #FFF;
+  font-size: 15px;
+  font-family: Poppins;
+  text-align: justify;
+}
+
+#modal-adoptar .me-gusta {
+  border-radius: 16px;
+  border: 3px solid #0061C9;
+  background: #55A5FA;
+  width: 54px;
+  height: 54px;
+}
+
+#modal-adoptar .me-gusta .bi.bi-heart {
+ font-size: 30px;
+ color: #0061C9;
+}
+
+#modal-adoptar .adoptar {
+  width: 273px;
+  height: 54px;
+  border-radius: 15px;
+  border: none;
+  color: #0061C9;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+ }
+/* Fin modal */
+/* FIN ADOPTAR APLICACION */
+
+
+
+/* CARRITO COMPRAS */
+#carrito-api .cantidad-productos-total {
+  color: #0E7AED;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+#carrito-api .vaciar-todo-carrito {
+  color: #0E7AED;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+#carrito-api .bg-transparent.text-end i {
+  color: #FF000F;
+  font-size: 30px;
+}
+
+#carrito-api .menos-producto, #carrito-api .mas-producto {
+  color: #474672;
+  font-size: 30px;
+}
+
+#carrito-api .monto-total {
+  color: #101010;
+  font-size: 30px;
+  font-family: 'Poppins';
+  font-weight: 800;
+}
+
+#carrito-api .btn-comprar-productos {
+  width: 302px;
+  height: 51px;
+  border-radius: 25px;
+  background: #474672;
+
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Poppins';
+}
+
+#carrito-api .d-flex.justify-content-center.align-items-center img  {
+  width: 150px;
+  margin-top: 200px;
+}
+
+/* FIN CARRITO COMPRAS */
+
+
+
+/* PERFIL APLICACION */
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #55A5FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  font-size: 104px;
+  font-weight: bold;
+}
+
+.custom-icon {
+  font-size: 2.2rem; /* Tamaño personalizado */
+  color: #55A5FA; /* Color personalizado */
+}
+
+.nombre-persona {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1AACFF; 
+}
+
+.ver-todo {
+  margin-left: 15%;
+  background-color: #55A5FA;
+  border-top-left-radius: 15px;
+  /* border-top-right-radius: 15px; */
+  border-bottom-left-radius: 15px;
+  /* border-bottom-right-radius: 15px; */
+  
+}
+
+.ver-todo i {
+  color: #ffffff;
+  font-size: 20px;
+ 
+}
+
+.ver-todo p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.mascotas-corazon h2, .mascotas-adoptadas h2, 
+.servicos-adquiridos h2 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+color: #1E1E1E;
+
+}
+
+.mascotas-corazon .resum-mascotas-corazon p,
+.mascotas-adoptadas .resum-mascotas-adoptadas p {
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.servicos-adquiridos .resum-servicios-adquiridos p {
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.servicos-adquiridos .resum-servicios-adquiridos .align-items-center div {
+  width: 60px;
+  height: 60px;
+  background: #55A5FA;
+  border-radius: 5px;
+}
+
+.ajustes-header, .ajustes-body {
+  background-color: #FFFFFF;
+}
+
+.informacion {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.btn-guardar-cambios, .btn-cerrar-sesion {
+  width: 240px;
+  height: 51px;
+  background: #0E7AED;
+  border-radius: 16px;
+  border: none;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFBF3;
+}
+
+.btn-cerrar-sesion {
+ background: #91C6FF;
+ color: #0E7AED;
+}
+
+.modal-header i {
+  font-size: 30px;
+  color: #0E7AED;
+}
+
+.div-password-cerrar-sesion #password {
+  background-color: #EEF6FE;
+}
+/* FIN PERFIL APLICACION */
+
+
+/* FORMULARIO RESERVAR SERVICIO Y ADOPTAR MASCOTA */
+#reservar-servicio i,
+#adoptar-mascota i {
+  font-size: 25px;
+  color: #55A5FA;
+}
+
+#reservar-servicio label,
+#adoptar-mascota label {
+  font-family: Poppins;
+}
+
+#reservar-servicio input,
+#adoptar-mascota input {
+  border-radius: 12px;
+  border: 1px solid #A9A9A9;
+}
+
+#reservar-servicio .reservar,
+#adoptar-mascota .adoptar {
+  border-radius: 10px;
+  background: #171F1D; 
+  color: white;
+  font-family: Poppins;
+  border: none;
+}
+/* FIN FORMULARIO RESERVAR SERVICIO Y ADOPTAR MASCOTA */
+
+
+/* Estilos para la alerta más pequeña */
+.small-alert  {
+  width: 200px !important;
+  font-size: 11px !important;
+}
+
